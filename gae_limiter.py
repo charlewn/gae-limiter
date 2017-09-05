@@ -1,8 +1,7 @@
 import logging
 # from functools import wraps
 import functools
-from controllers.Handler import Handler
-import webapp2
+
 
 class Limiter(object):
 	"""docstring for Limiter"""
