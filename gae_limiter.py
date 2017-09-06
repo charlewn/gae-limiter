@@ -5,11 +5,9 @@ import functools
 
 class Limiter(object):
 	"""docstring for Limiter"""
-	# limit = staticmethod( limit )
+	
 	def __init__(self):
 		super(Limiter, self).__init__()
-		# pass
-		# self.arg = arg
 		
 	def limit(self, limit_request, interval, per):
 		"""
